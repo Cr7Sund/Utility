@@ -312,7 +312,7 @@ namespace Cr7Sund.Utility
 
             if (o1.GetType().IsValueType)
             {
-                throw new System.NotImplementedException();
+                throw new InvalidOperationException();
             }
             else
             {

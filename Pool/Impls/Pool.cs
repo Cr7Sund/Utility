@@ -19,13 +19,7 @@ namespace Cr7Sund.Utility
                 return _instancesAvailable.Count;
             }
         }
-        public object Value
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
+        
         public override int Count => InstancesInUse.Count;
 
         public Pool() : base()
