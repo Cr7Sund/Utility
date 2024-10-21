@@ -62,5 +62,7 @@ namespace Cr7Sund.FrameWork.Util
 
 			return startIndex;
 		}
+
+
 	}
 }
