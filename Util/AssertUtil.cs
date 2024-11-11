@@ -242,6 +242,14 @@ namespace Cr7Sund.FrameWork.Util
             }
         }
 
+        public static void IsTrue(bool expected, string msg)
+        {
+            if (!expected)
+            {
+                throw new MyException($"Expected true, but it's false \n {msg}");
+            }
+        }
+        
         public static void IsTrue<TEnum>(bool expected, TEnum errorCode) where TEnum : Enum
         {
             if (!expected)
